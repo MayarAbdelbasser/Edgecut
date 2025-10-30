@@ -1,0 +1,25 @@
+.products__container {
+  padding: 4em 0;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 1.15em;
+
+  .products__holder {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: space-between;
+    gap: 2.25em;
+    margin-top: 2em;
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    line-height: 1.5em;
+    font-size: 1.25rem;
+  }
+}

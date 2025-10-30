@@ -1,0 +1,49 @@
+.contact {
+  background-color: var(--bgColor);
+  padding: 4em 0;
+  .contact__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+  }
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  iframe {
+    border: 0;
+    max-width: 100%;
+  }
+  .contact__form {
+    flex: 1;
+    padding: 2em;
+    width: 100%;
+  }
+  form {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  input {
+    border: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    padding: 1.5em;
+    width: 100%;
+    display: inline-block;
+  }
+  input.message {
+    height: 14dvh;
+  }
+  a {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .contact {
+    .contact__container {
+      flex-direction: column;
+    }
+  }
+}

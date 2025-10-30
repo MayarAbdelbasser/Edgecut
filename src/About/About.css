@@ -1,0 +1,9 @@
+.section.about {
+  margin: 0;
+  .section__container {
+    grid-template-columns: 2fr 1fr;
+  }
+  h2 {
+    font-size: 2em;
+  }
+}

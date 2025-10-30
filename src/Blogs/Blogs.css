@@ -1,0 +1,35 @@
+.blogs__container {
+  flex-direction: column;
+  padding: 4em 0;
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .blogs__holder {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center;
+    width: 100%;
+    gap: 1.5em;
+    margin-top: 2em;
+  }
+}
+.blog {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  .blog__details {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  h4 {
+    font-size: 1.35rem;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.5em;
+  }
+  img {
+    width: 100%;
+  }
+}

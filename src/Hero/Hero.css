@@ -1,0 +1,39 @@
+.section {
+  padding: 3em 0;
+  background-color: var(--bgColor);
+  margin-top: 4.5em;
+  .section__container {
+    display: grid;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .section__img {
+    padding: 1em;
+  }
+  .section__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  .section__info__btns {
+    display: flex;
+    gap: 1em;
+  }
+  h2 {
+    font-size: 2.75rem;
+  }
+  p {
+    line-height: 1.75em;
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 768px) {
+  .section {
+    .section__container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
