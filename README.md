@@ -6,7 +6,7 @@ Edgecut is a responsive furniture website that showcases stylish furniture produ
 
 ## 🚀 Live Demo
 
-👉 [View Website](#) _(Add your live link once deployed)_
+👉 [View Website](https://mayar-abdelbasser-edgecut.netlify.app/)
 
 ---
 
