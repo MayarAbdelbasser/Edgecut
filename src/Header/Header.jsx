@@ -37,27 +37,47 @@ function Header() {
         <nav>
           <ul className={menuClassName}>
             <li>
-              <a href="#hero" className="transition">
+              <a
+                href="#hero"
+                className="transition"
+                onClick={() => setNavMenuShown(false)}
+              >
                 home
               </a>
             </li>
             <li>
-              <a href="#about" className="transition">
+              <a
+                href="#about"
+                className="transition"
+                onClick={() => setNavMenuShown(false)}
+              >
                 about
               </a>
             </li>
             <li>
-              <a href="#furnitures" className="transition">
+              <a
+                href="#furnitures"
+                className="transition"
+                onClick={() => setNavMenuShown(false)}
+              >
                 furnitures
               </a>
             </li>
             <li>
-              <a href="#blogs" className="transition">
+              <a
+                href="#blogs"
+                className="transition"
+                onClick={() => setNavMenuShown(false)}
+              >
                 blog
               </a>
             </li>
             <li>
-              <a href="#contact" className="transition">
+              <a
+                href="#contact"
+                className="transition"
+                onClick={() => setNavMenuShown(false)}
+              >
                 contact us
               </a>
             </li>
