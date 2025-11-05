@@ -10,8 +10,10 @@ footer {
   }
 
   .footer__contacts {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 2em;
   }
 
@@ -82,18 +84,6 @@ footer {
       &:focus {
         outline: none;
       }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  footer {
-    .footer__contacts,
-    .footer__links {
-      flex-direction: column;
-    }
-    .footer__links {
-      /* align-content: center; */
     }
   }
 }
