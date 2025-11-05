@@ -4,7 +4,7 @@ import aboutImg from "../assets/about-img.png";
 function About() {
   return (
     <section className="section about" id="about">
-      <div className="container section__container">
+      <div className="container section__container ">
         <div className="section__img">
           <img src={aboutImg} alt="section-img" />
         </div>

@@ -7,3 +7,10 @@
     font-size: 2em;
   }
 }
+@media (max-width: 768px) {
+  .section.about {
+    .section__container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
